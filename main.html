@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BrianElu</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+
+    <header class="container">
+        <div class="headercontainer1">
+            <p><b>VALENTINUS NATHANAEL FEBRIAN ELU</b></p>
+            <p><b>255314158</b></p>
+        </div>
+
+        <div class="headercontainer2">
+            <img src="seseren-azur-lane.gif" alt="">
+        </div>
+
+        <div class="headercontainer3">
+            <img src="watashi.png" alt="">
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="maincontainer">
+            <p>
+                Nama depan :
+                <input class="inputBio" type="text" id="firstname">
+            </p>
+        </div>
+
+        <div class="maincontainer">
+            <p>
+                Nama belakang :
+                <input class="inputBio" type="text" id="surnname">
+            </p>
+        </div>
+
+        <div class="maincontainer">
+            <p>
+                Jumlah pilihan :
+                <input class="inputBio" type="number"
+                       id="jumlahPilihan" min="1" step="1">
+            </p>
+        </div>
+
+        <div class="maincontainer">
+            <div id="inputPilihan"></div>
+            <div id="pilihPilihan"></div>
+            <div id="inputEmail"></div>
+
+            <p id="error" style="color: red;"></p>
+            <p>
+                <button class="buttonName"
+                        id="tombolOK"
+                        onclick="userInput()">OK</button>
+            </p>
+
+            <p id="hasil"></p>
+        </div>
+    </main>
+
+</body>
+</html>

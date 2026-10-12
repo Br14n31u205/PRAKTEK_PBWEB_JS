@@ -1,0 +1,120 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DynaPuff:wght@400..700&family=Fontdiner+Swanky&display=swap');
+
+
+
+body {
+    margin: 0px;
+    background-color: rgba(5, 10, 16, 0.9);;
+}
+
+
+header {
+    &.container {
+        margin: 0px 0px 10px 0px;
+        padding: 10px;
+        display: flex;
+        background: rgba(5, 10, 16, 0.9);
+    }
+
+    .headercontainer1 {
+        margin: 0px 10px 0px 0px;
+        padding: 0px 0px 0px 30px;
+
+        & p {
+            font-family: "DynaPuff", system-ui;
+            font-style: normal;
+            font-size: larger;
+            color: azure;
+            text-shadow: 0 0 25px #9fb8c7;
+        }
+
+    }
+
+    
+     .headercontainer2 {
+        
+        margin: 0px 550px 0px 0px;
+        padding: 0px 15px 15px 10px  ;
+
+        & img {
+            width: 100%;
+            max-width: 95px;
+            padding: 0px 0px 5px 0px;
+        }
+    }
+
+     .headercontainer3 {
+        
+        margin: 0px;
+        padding: 10px  ;
+
+         img {
+            border-radius: 40%;
+            max-width: 120px;
+            transition: 0.3s;
+            &:hover {
+                 transform: translateY(-5px);
+            }
+        }
+    }
+    
+}
+
+
+main {
+
+    &.container {
+        margin: 0px 0px 100px 0px;
+        padding: 10px;
+        display: flex ;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .maincontainer {
+         margin: 0px 10px 0px 0px;
+         padding: 0px 0px 0px 30px;
+        background: rgba(5, 10, 16, 0.9);
+        border-color: rgba(159, 184, 199, 0.6);
+        border-style: solid;
+         box-shadow: 0 0 10px rgba(0, 173, 181, 0.5); 
+
+        p {
+            color: azure;
+        }
+
+        input {
+            background-color:  rgba(159, 184, 199, 0.6);
+            border-style: solid;
+            padding: 8px;
+            border: 1px 10px 1px 1px solid #aaa;
+            border-radius: 4px;
+            width: 350px;
+           color: #ffffff; 
+
+        }
+
+    }
+
+}
+
+.inputBio {
+    max-width: 90%;
+    box-sizing: border-box;
+}
+
+.buttonName {
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.buttonName:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+
+#hasil {
+    overflow-wrap: anywhere;
+    line-height: 1.8;
+}
